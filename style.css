@@ -1,0 +1,27 @@
+body {
+    background-image: url(./img/clouds.jpg);
+    font-family:'Poppins', sans-serif;;
+}
+
+.container {
+    background-color: rgba(142, 193, 209, 0.445);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+.container h1 {
+    padding-top: 5%;
+}
+.formClass {
+    text-align: center;
+    padding: 5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.weatherContent {
+    line-height : 40%;
+}

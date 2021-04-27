@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Time prediction</h1>
+    <div class="weatherContent">
+        <!--Content from API-->
+        <div class="weather-icon">
+            <img src="icons/unknown.png" alt="">
+        </div>
+        <div class="description"> 
+            <p> </p> 
+        </div>
+        <div class="low-and-max">
+            <div class="max-temperature">
+                <p></p>
+            </div>
+            <div class="min-temperature">
+                <p></p>
+            </div>
+        </div>
+        <div class="date-time">
+            <p></p>
+        </div>
+    <div>
+        <form class="formClass">
+            <label for="city">City:</label>
+            <input type="text" id="cityInput" name="City">
+            <label for="countryCode">Country Code:</label>
+            <input type="text" id="countryCodeInput" name="countryCode"><br><br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
